@@ -7,6 +7,8 @@
 #end
 
 def reverse_each_word(words)
-  reversedarray = words.split.collect{|word| word.reverse}
-  reversedarray.join(" ")
+  #reversedarray = words.split.collect{|word| word.reverse}
+  #reversedarray.join(" ")
+  words.spliit.collect {|word| word.reverse}.join("")
+
 end
