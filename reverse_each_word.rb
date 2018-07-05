@@ -9,6 +9,6 @@
 def reverse_each_word(words)
   #reversedarray = words.split.collect{|word| word.reverse}
   #reversedarray.join(" ")
-  words.split.collect {|word| word.reverse}.join("")
+  words.split.collect {|word| word.reverse}.join(" ")
 
 end
