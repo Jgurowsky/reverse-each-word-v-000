@@ -7,7 +7,7 @@
 #end
 
 def reverse_each_word(words)
-  words.split
+  words = words.split
   reversedarray = words.collect{|word| word.reverse}
 
 end
