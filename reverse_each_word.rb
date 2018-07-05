@@ -9,5 +9,6 @@
 def reverse_each_word(words)
   words = words.split
   reversedarray = words.collect{|word| word.reverse}
+  reversedarray.join(" ")
 
 end
